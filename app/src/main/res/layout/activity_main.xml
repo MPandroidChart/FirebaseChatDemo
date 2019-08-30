@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="#1aaba8">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:onClick="OnChannelBkClicked"
+        android:id="@+id/bk_channel"
+        android:src="@mipmap/back"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="频道名称"
+        android:id="@+id/txt_channel_name"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/chat_msg_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="50dp"
+            ></android.support.v7.widget.RecyclerView>
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/smartRepliesRecycler"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_above="@+id/ry_input"-->
+        <!--android:layout_marginBottom="50dp"-->
+        <!--app:layoutManager="android.support.v7.widget.LinearLayoutManager"-->
+        <!--tools:listitem="@layout/smart_reply_chip"/>-->
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/ly_smartreply_txt"
+    android:visibility="gone"
+    android:layout_marginBottom="40dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="频道名称"
+        android:padding="8dp"
+        android:id="@+id/smart_reply_txt1"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_rectangle_blue"
+        android:layout_marginLeft="10dp"
+        android:textColor="#3F51B5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="频道名称"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/smart_reply_txt2"
+        android:padding="8dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_rectangle_blue"
+        android:textSize="18sp"
+        android:textColor="#3F51B5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="频道名称"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/smart_reply_txt3"
+        android:padding="8dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_rectangle_blue"
+        android:textSize="20sp"
+        android:textColor="#3F51B5"/>
+
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ry_input"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_msg"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ry"
+            android:textSize="18sp"/>
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/ry">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:text="@string/bt_send_txt"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:id="@+id/bt_send_msg"
+            android:onClick="OnBtSendMsgClick"
+            android:background="#36ab60"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/select_picture"
+            android:id="@+id/iv_select_pic"
+            android:onClick="OnSelectPicClicked"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:paddingRight="10dp"></ImageView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:src="@mipmap/chat_icon"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/channel_name"
+            android:text="Android学习"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/channel_time"
+                android:text="2019.08.09 8:28"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/channel_msg"
+            android:text="今天的早餐好好吃！"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</LinearLayout>

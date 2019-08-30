@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="退出登录"
+        app:showAsAction="never"
+        android:id="@+id/menu_sign_out"/>
+    <item
+        android:title="注销账号"
+        app:showAsAction="never"
+        android:id="@+id/menu_delete_account"/>
+    <item
+        android:title="创建频道"
+        app:showAsAction="never"
+        android:id="@+id/menu_add_channel"/>
+</menu>

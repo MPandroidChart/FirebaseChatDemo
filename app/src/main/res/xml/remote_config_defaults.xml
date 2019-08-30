@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>change_bk</key>
+        <value>false</value>
+        <key>change_ly</key>
+        <value>false</value>
+    </entry>
+
+</defaultsMap>
+    <!-- END xml_defaults -->

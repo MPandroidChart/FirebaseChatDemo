@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FirebaseChatDemo</string>
+    <string name="facebook_app_id">1481715348637262</string>
+    <string name="fb_login_protocol_scheme">fb1481715348637262</string>
+    <string name="facebook_application_id" translatable="false">1481715348637262</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb1481715348637262</string>
+    <string name="camera_button_text">Upload</string>
+    <string name="sign_in_prompt">Sign In to begin</string>
+    <string name="take_photo_prompt">Upload a Photo</string>
+    <string name="download">Download</string>
+    <string name="sign_in_anonymously">Sign In</string>
+    <string name="rationale_storage">This sample reads images from your camera to demonstrate uploading.</string>
+    <string name="label_link">Link to Uploaded File</string>
+    <string name="label_download">Download File</string>
+    <string name="log_out">Log out</string>
+    <string name="success">Success</string>
+
+    <string name="progress_downloading">Downloading…</string>
+    <string name="progress_uploading">Uploading…</string>
+    <string name="progress_auth">Signing In…</string>
+
+    <string name="upload_success">Upload finished</string>
+    <string name="upload_failure">Upload failed</string>\
+
+    <string name="download_success">Download finished</string>
+    <string name="download_failure">Download failure</string>
+    <string name="bt_send_txt">send</string>
+    <string name="unknown_error">unknown_error</string>
+</resources>
