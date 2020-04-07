@@ -21,3 +21,4 @@
      * https://firebase.google.com/?hl=zh-cn
      * 未尽事宜请见Firebase官方文档！
      */
+Android学习网址：https://lrh1993.gitbooks.io/android_interview_guide/content/android/basis/service.html#3%E6%B7%B7%E5%90%88%E5%9E%8B%EF%BC%88%E4%B8%8A%E9%9D%A2%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F%E7%9A%84%E4%BA%A4%E4%BA%92%EF%BC%89
